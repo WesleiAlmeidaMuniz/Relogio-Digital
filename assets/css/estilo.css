@@ -2,12 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
 
 body{
-    background: rgb(83, 144, 223);
     font: normal 15pt Arial;
 }
 
 #background{
-    background-image: url('../image/Foto Manha.jpg');
+    background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

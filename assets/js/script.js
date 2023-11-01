@@ -2,7 +2,6 @@ async function tempo(lat, lon) {
     const key = 'd65ba2cb16959ebdf77257f424c0e0a0'
     const dados = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${key}&lang=pt_br&units=metric`).then(reposta => reposta.json())
 
-    console.log(dados)
     cidade(dados)
 }
 
@@ -68,4 +67,3 @@ function carregar() {
 navigator.geolocation.getCurrentPosition(function (position) {
     tempo(position.coords.latitude, position.coords.longitude);
 });
-
