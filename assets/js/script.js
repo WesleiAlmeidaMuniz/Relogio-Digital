@@ -46,7 +46,7 @@ function carregar() {
         msg.style.color = '#F7AB0F'
         dia.style.color = '#F7AB0F'
         cidade.style.color = '#F7AB0F'
-    } else if (hora >= 12 && hora <= 18) {
+    } else if (hora >= 12 && hora < 18) {
         //BOA TARDE
         img.style.backgroundImage = "url('assets/image/Foto Tarde.jpg')"
         document.body.style.background = "#b9846f"
